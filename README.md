@@ -2,10 +2,10 @@
 
 ## Preview
 
-<p align="center">
-   <img src="./src/imgReadme/Captura de tela de 2020-11-01 01-22-29.png" alt="Calculo-imc" width="400"/>
+< align="center">
+   <img src="./src/imgReadme/Captura de tela de 2020-11-01 01-22-29.png" alt="Calculo-imc" width="600"/>
     
-     </p>
+     
 
 ## Sobre o IMC-Calculadora
 
