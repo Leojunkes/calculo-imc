@@ -1,0 +1,57 @@
+
+input{
+    display: block;
+    margin-top: 8px;
+    border-color: lightgray;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    height: 30px;
+    color: lightslategray;
+}
+h3{
+    color: cornflowerblue;
+    text-align: center;
+    
+}
+.textP{
+    color: cornflowerblue;
+}
+b{
+    margin-left: 15px;
+}
+.buttonCalcular{
+    margin-top: 8px;
+    background-color: darkseagreen;
+    color: black;
+    height: 25px;
+    width: 65px;
+}
+.medidaTotal{
+    color: lightgray;
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.medidaTotText{
+    margin-top: 10px;
+    color: darkgray;
+}
+.container{
+    margin-top: 50px;
+    border: solid;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 60px;
+    
+}
+.container2{
+    width: 50%;
+    margin: auto;
+}
+.containerInput{
+    margin-left: 400px;
+}
+.containerResults{
+    margin-left: 400px;
+}
