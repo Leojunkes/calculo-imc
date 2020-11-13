@@ -55,3 +55,11 @@ b{
 .containerResults{
     margin-left: 400px;
 }
+.containerFooter{
+    background-color: #141414;
+    width: 100%;
+    height: 100vh;
+    height: 100px;
+    margin-top: 104px;
+    padding: 10px;
+}

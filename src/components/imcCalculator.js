@@ -37,7 +37,8 @@ function IMCcalculator(props){
         setimcResultado(imcresultado);
         }
     return (
-    <div className="container">
+    <div className="container1">
+        <div className="container">
         <h3>Calculadora IMC</h3>
         <div className="container2">
         <p className = "textP"><b>IMC</b> é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
@@ -45,15 +46,25 @@ function IMCcalculator(props){
             Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo:</p>
             </div>
         <div className="containerInput">
-            <input placeholder="Digite sua Altura                 Kg" onChange={e=>setAltura(e.target.value)}/>
-            <input placeholder="Digite seu Peso                  m" onChange={e=>setPeso(e.target.value)}/>
+            <input placeholder="Digite sua Altura                 m" onChange={e=>setAltura(e.target.value)}/>
+            <input placeholder="Digite seu Peso                  kg" onChange={e=>setPeso(e.target.value)}/>
             <button className="buttonCalcular" name="Calcular" onClick={calcular}>calcular</button>
         </div>
         <div className="containerResults">
         <p className="medidaTotal">{imcresultado.toFixed(2)}</p>
         <p className="medidaTotText">{imctext}</p>
+        
         </div>
-    </div>
+        </div>
+        
+        <div className="containerFooter">
+            <footer className="Rodapé">
+                <h3><a src ="https://github.com/Leojunkes"/>GitHub - https://github.com/Leojunkes</h3>
+            </footer>
+        </div>
+        
+        </div>
+    
     )
 }
 
